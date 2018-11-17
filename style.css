@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+        background-color: #00008b;
+        padding: 10px 0;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 20px;
+}
+.txt {
+   float: right;
+   font-size: 20px;
+}
+.gen{
+    margin: 0 10px;
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .txt {
+   float: left;
+   font-size: 16px;
+   margin: 0 0 10px 0;
+}
+}
